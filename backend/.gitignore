@@ -1,0 +1,88 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Type Checker
+.pytype/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Redis dump
+dump.rdb
+
+# Uploaded Files
+uploads/
+media/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python Packaging
+pip-wheel-metadata/
+
+# Secrets
+secrets.json
+credentials.json
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini

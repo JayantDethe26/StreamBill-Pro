@@ -1,0 +1,7 @@
+from app.core.security import decode_access_token
+
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZWFlYTdhNy1kYzE3LTRmMjMtYTU0MS1kZmRkNjRiNTllY2UiLCJlbWFpbCI6ImpheWFudDIwMDRAZ21haWwuY29tIiwiZXhwIjoxNzgxOTQ3MDAyfQ.xHPSVk9QfemAh_NVFti-0m2GLcU1yr9lQPVEUjloZzc"
+
+payload = decode_access_token(token)
+
+print(payload)
